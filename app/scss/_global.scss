@@ -8,10 +8,22 @@ html{
 }
 a{
     display: inline-block;
+    color: $text;
+    text-decoration: none;
 }
 ul,
 li{
     padding: 0;
     margin: 0;
     list-style: none;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    
+}
+.container{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    color: $text;
 }
