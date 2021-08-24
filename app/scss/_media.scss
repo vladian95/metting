@@ -2,34 +2,6 @@
     .company__inner{
         .fedex{
             display: none;
-         }
-    }
- 
-}
-@media (max-width: 1000px){
-    .features{
-        padding-top: 51px; 
-        .features__top-content{
-            .features__top-title{
-                font-size: 20px;
-            }
-        }
-        .feature__item-inner{
-            display: block; 
-            .features__item{
-                margin-bottom: 48px;
-                max-width: 100%;
-                .features__item-text{
-                    margin-bottom: 15px;
-                }
-            }
-        }
-    }  
-}
-@media (max-width: 990px){
-    .company__inner{
-        .walmart{
-            display: none;
         }
     }
 }
@@ -94,6 +66,27 @@
         }
     }
     
+}
+@media (max-width: 1000px){
+    body{
+        .features{
+            padding-top: 20px; 
+            .feature__item-inner{
+                display: block;
+                .feature__item{
+                    max-width: 100%;
+                    margin-bottom: 48px;
+                }
+            } 
+        } 
+    }
+}
+@media (max-width: 990px){
+    .company__inner{
+        .walmart{
+            display: none;
+        }
+    }
 }
 @media (max-width: 890px){
     .collaborate{
@@ -173,5 +166,33 @@
         .rating__item-text{
             font-size: 14px;
         }
+    }
+    .features{
+        .features__top-content{
+            .features__top-title{
+                font-size: 24px;
+            }
+            .features__top-text{
+                font-size: 14px;
+                line-height: 20px;
+            }
+        } 
+    }
+    body{
+        .feature__item-inner{
+            .feature__item{
+                .features__item-title{
+                    font-size: 20px;
+                }
+                .features__item-text{
+                    font-size: 14px;
+                    line-height: 20px;
+                    margin-bottom: 20px;
+                }
+                .features__item-link{
+                    font-size: 20px;
+                }
+            }
+        } 
     }
 }
